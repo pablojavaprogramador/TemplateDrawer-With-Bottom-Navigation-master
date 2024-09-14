@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    namespace 'com.touchizen.drawerwithbottomnavigation' // Cambia esto por el namespace adecuado para tu proyecto
+    namespace 'com.touchizen.drawerwithbottomnavigation'
     compileSdkVersion 34
     defaultConfig {
         applicationId "com.touchizen.drawerwithbottomnavigation"
