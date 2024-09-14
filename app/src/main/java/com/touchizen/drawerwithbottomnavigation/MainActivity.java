@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Inicializa el SDK de AdMob
         MobileAds.initialize(this, initializationStatus -> {});
-
+        //showInterstitialAdIfNeeded();
         // Cargar el anuncio intersticial
         loadInterstitialAd();
     }
@@ -71,7 +71,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Mostrar anuncio intersticial cuando se haga clic en el FAB
                 if (mInterstitialAd != null) {
-                    mInterstitialAd.show(MainActivity.this);
+                   // mInterstitialAd.show(MainActivity.this);
+                    Snackbar.make(view,"Anuncio deshabilitado",Snackbar.LENGTH_LONG).show();
                 } else {
                     Snackbar.make(view, "No hay anuncio cargado", Snackbar.LENGTH_LONG).show();
                 }
@@ -98,6 +99,23 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(bottomNavView, navController);
 
         animateNavigationDrawer();
+        // Listener para detectar cambios de fragmentos
+        navController.addOnDestinationChangedListener((controller, destination, arguments) -> {
+            if (destination.getId() == R.id.nav_home || destination.getId() == R.id.bottom_home) {
+                showInterstitialAdIfNeeded();
+            }
+        });
+
+    }
+
+    private void showInterstitialAdIfNeeded() {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show(MainActivity.this);
+            // Opcional: Puedes recargar el anuncio después de mostrarlo si planeas usarlo más adelante.
+            loadInterstitialAd();
+        } else {
+            Toast.makeText(MainActivity.this, "Anuncio no cargado", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void loadInterstitialAd() {
