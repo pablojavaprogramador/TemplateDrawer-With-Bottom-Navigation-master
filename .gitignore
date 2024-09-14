@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Directorios generados por el IDE
+.idea/
+*.iml
+
+# Directorios y archivos generados por Gradle
+/build/
+.gradle/
+
+# Archivos de Gradle Wrapper
+gradlew
+gradlew.bat
+
+# Archivos de Gradle Wrapper generados
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+
+# Directorios generados por la construcción
+/app/build/
+build/
+
+# Archivos de configuración local que podrían contener información sensible
+local.properties
+
+# Directorios específicos para capturas de pantalla o archivos no críticos
+screenshots/
+
+# Excluir archivos temporales y de sistema
+.DS_Store
+Thumbs.db
