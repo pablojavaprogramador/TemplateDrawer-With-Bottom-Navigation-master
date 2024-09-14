@@ -36,8 +36,7 @@ build/
 # Archivos de configuración local que podrían contener información sensible
 local.properties
 
-# Directorios específicos para capturas de pantalla o archivos no críticos
-screenshots/
+
 
 # Excluir archivos temporales y de sistema
 .DS_Store
