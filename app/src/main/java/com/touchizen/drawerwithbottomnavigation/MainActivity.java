@@ -2,6 +2,8 @@ package com.touchizen.drawerwithbottomnavigation;
 
 import android.os.Bundle;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -43,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
         initFab();
         initNavigation();
         //showBottomNavigation(false);
+        // Inicializa el SDK de AdMob
+        MobileAds.initialize(this, initializationStatus -> {});
+      //  mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+       // mAdView.loadAd(adRequest);
     }
 
     private void initToolbar() {

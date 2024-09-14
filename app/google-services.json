@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "433883326251",
+    "project_id": "diabeton-a0bbe",
+    "storage_bucket": "diabeton-a0bbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433883326251:android:af766136a17ad29a1a876e",
+        "android_client_info": {
+          "package_name": "com.touchizen.drawerwithbottomnavigation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANfGiUb8caXW8P-BnZ3fc1x2REOm_olmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
