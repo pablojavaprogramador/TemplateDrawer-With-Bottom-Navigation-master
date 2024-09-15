@@ -1,6 +1,9 @@
 package com.touchizen.drawerwithbottomnavigation;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
@@ -31,6 +34,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.LoadAdError;
+import com.touchizen.drawerwithbottomnavigation.ui.terms.TermsAndConditionsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,6 +51,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        boolean termsAccepted = preferences.getBoolean("termsAccepted", false);
+
+        if (!termsAccepted) {
+            Intent intent = new Intent(MainActivity.this, TermsAndConditionsActivity.class);
+            startActivity(intent);
+            finish();
+            return; // No continuar con la inicialización de MainActivity
+        }
 
         initToolbar();
         initFab();
@@ -88,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send,
+                R.id.nav_tools, R.id.nav_share, R.id.nav_terms,
                 R.id.bottom_home, R.id.bottom_dashboard, R.id.bottom_notifications)
                 .setDrawerLayout(drawer)
                 .build();

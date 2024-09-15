@@ -36,10 +36,11 @@
         tools:layout="@layout/fragment_share" />
 
     <fragment
-        android:id="@+id/nav_send"
-        android:name="com.touchizen.drawerwithbottomnavigation.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/nav_terms"
+        android:name="com.touchizen.drawerwithbottomnavigation.ui.terms.TermsFragment"
+        android:label="@string/menu_terms"
+        tools:layout="@layout/fragment_terms" />
+
 
     <fragment
         android:id="@+id/bottom_home"
@@ -58,4 +59,7 @@
         android:name="com.touchizen.drawerwithbottomnavigation.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+
+
 </navigation>
