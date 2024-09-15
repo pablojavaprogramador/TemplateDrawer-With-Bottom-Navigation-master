@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Drawer with bottom navigation</string>
+    <string name="app_name">App Name</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -18,4 +18,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="terms_and_conditions_title">terms_and_conditions_title</string>
+    <string name="terms_and_conditions_content">terms_and_conditions_content</string>
+    <string name="accept_terms_and_conditions">accept_terms_and_conditions</string>
 </resources>

@@ -13,17 +13,29 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8052183269578399~8014830825"/>
+            android:value="ca-app-pub-8052183269578399~8014830852"/>
 
+        <!-- Splash Screen Activity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.splash.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <!-- Terms and Conditions Activity -->
+        <activity
+            android:name=".ui.terms.TermsAndConditionsActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 

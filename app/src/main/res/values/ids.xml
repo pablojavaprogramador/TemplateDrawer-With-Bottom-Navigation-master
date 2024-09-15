@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="termsTitleTextView" type="id" />
+    <item name="termsContentTextView" type="id" />
+    <item name="checkbox_accept_terms" type="id" />
+    <item name="button_continue" type="id" />
+</resources>

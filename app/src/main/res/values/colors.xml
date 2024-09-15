@@ -3,4 +3,5 @@
     <color name="colorPrimary">#f1b125</color>
     <color name="colorPrimaryDark">#d67b1a</color>
     <color name="colorAccent">#525252</color>
+    <color name="splash_background_color">#2196F3</color> <!-- Azul -->
 </resources>
