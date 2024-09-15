@@ -5,11 +5,41 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- Título de los Términos y Condiciones -->
     <TextView
-        android:id="@+id/text_terms"
+        android:id="@+id/termsTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_and_conditions_title"
+        android:textSize="22sp"
+        android:enabled="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <!-- Botón de Revertir Aceptación -->
+    <Button
+        android:id="@+id/button_revoke"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Loading terms..."
-        android:textSize="16sp" />
+        android:text="Terminos Aceptados"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Contenido de los Términos y Condiciones -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:id="@+id/termsContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_and_conditions_content"
+            android:textSize="16sp"
+            android:textColor="@color/design_default_color_on_secondary" />
+    </ScrollView>
 
 </LinearLayout>

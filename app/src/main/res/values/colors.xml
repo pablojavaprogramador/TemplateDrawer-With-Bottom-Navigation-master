@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#f1b125</color>
+    <color name="colorPrimary">#d67b1a</color><!-- Color de Fondo de toda la APP -->
     <color name="colorPrimaryDark">#d67b1a</color>
     <color name="colorAccent">#525252</color>
-    <color name="splash_background_color">#2196F3</color> <!-- Azul -->
+
+    <color name="textPrimary">#212121</color> <!-- Color de texto principal -->
+    <color name="textSecondary">#757575</color> <!-- Color de texto secundario -->
+    <color name="textHint">#BDBDBD</color> <!-- Color del texto de sugerencia o hint -->
+
 </resources>

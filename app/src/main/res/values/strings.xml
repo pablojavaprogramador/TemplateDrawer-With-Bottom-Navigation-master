@@ -2,8 +2,8 @@
     <string name="app_name">App Name</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Pablo Ernesto</string>
+    <string name="nav_header_subtitle">tecnoplacita@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -13,13 +13,13 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
 
-
     <!-- Bottom Navigation -->
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="terms_and_conditions_title">terms_and_conditions_title</string>
-    <string name="terms_and_conditions_content">terms_and_conditions_content</string>
-    <string name="accept_terms_and_conditions">accept_terms_and_conditions</string>
-    <string name="menu_terms">Terminos y Condiciones</string>
+    <string name="terms_and_conditions_title">Términos y Condiciones</string>
+    <string name="terms_and_conditions_content">**Términos y Condiciones de Uso**\n\n**Última actualización:** 14 de septiembre de 2024\n\nBienvenido a **TouchiZen** (la "Aplicación"). Estos Términos y Condiciones de Uso (los "Términos") rigen su acceso y uso de la Aplicación. Al acceder o usar la Aplicación, usted acepta cumplir y estar sujeto a estos Términos. Si no está de acuerdo con estos Términos, no debe usar la Aplicación.\n\n**1. Aceptación de los Términos**\n\nAl utilizar la Aplicación, usted acepta estos Términos y todas las políticas y directrices que se publiquen en la Aplicación. Si no acepta estos Términos, no debe utilizar la Aplicación.\n\n**2. Cambios a los Términos**\n\nNos reservamos el derecho de modificar estos Términos en cualquier momento. Los cambios entrarán en vigor en el momento en que se publiquen en la Aplicación. Su uso continuo de la Aplicación después de la publicación de los cambios constituye su aceptación de los nuevos Términos.\n\n**3. Uso de la Aplicación**\n\nUsted se compromete a utilizar la Aplicación solo para fines legales y de acuerdo con estos Términos. No debe utilizar la Aplicación de ninguna manera que pueda dañar, deshabilitar, sobrecargar o afectar negativamente el funcionamiento de la Aplicación o interferir con el uso de la Aplicación por parte de terceros.\n\n**4. Registro y Seguridad**\n\nPara utilizar ciertas funciones de la Aplicación, puede ser necesario que se registre y proporcione información personal. Usted es responsable de mantener la confidencialidad de su cuenta y contraseña, y de notificar inmediatamente a la Aplicación sobre cualquier uso no autorizado de su cuenta.\n\n**5. Propiedad Intelectual**\n\nTodos los derechos de propiedad intelectual en la Aplicación y en el contenido disponible a través de la Aplicación son propiedad de **TouchiZen Inc.** o sus licenciantes. Usted no debe reproducir, distribuir, modificar, crear trabajos derivados o explotar de cualquier manera el contenido de la Aplicación sin el permiso expreso de **TouchiZen Inc.**.\n\n**6. Enlaces a Otros Sitios Web**\n\nLa Aplicación puede contener enlaces a sitios web de terceros. No somos responsables del contenido, políticas de privacidad o prácticas de esos sitios web. Le recomendamos que revise los términos y políticas de privacidad de cualquier sitio web de terceros que visite.\n\n**7. Limitación de Responsabilidad**\n\nEn la medida máxima permitida por la ley, **TouchiZen Inc.** no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo que resulte de su uso o imposibilidad de uso de la Aplicación.\n\n**8. Indemnización**\n\nUsted acepta indemnizar y mantener indemne a **TouchiZen Inc.**, sus afiliados, directores, empleados y agentes, de cualquier reclamación, responsabilidad, pérdida, daño, costo o gasto, incluidos los honorarios legales razonables, que surjan de su uso de la Aplicación o de su incumplimiento de estos Términos.\n\n**9. Ley Aplicable**\n\nEstos Términos se regirán e interpretarán de acuerdo con las leyes del Estado de California, sin tener en cuenta los principios de conflicto de leyes.\n\n**10. Contacto**\n\nSi tiene alguna pregunta sobre estos Términos, puede contactarnos en:\n\n**Correo Electrónico:** support@touchizen.com\n**Dirección Física:** 1234 Silicon Valley, Suite 567, San Francisco, CA 94107, Estados Unidos\n**Teléfono:** +1 (415) 555-6789</string>
+
+    <string name="accept_terms_and_conditions">Aceptar términos y condiciones</string>
+    <string name="menu_terms">Términos y Condiciones</string>
 </resources>

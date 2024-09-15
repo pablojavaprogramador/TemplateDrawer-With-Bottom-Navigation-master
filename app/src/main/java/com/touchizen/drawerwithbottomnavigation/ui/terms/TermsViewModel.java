@@ -6,11 +6,15 @@ import androidx.lifecycle.ViewModel;
 
 public class TermsViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private final MutableLiveData<String> mText;
 
     public TermsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is send fragment");
+        mText.setValue("No terms found");
+    }
+
+    public void setTermsText(String termsText) {
+        mText.setValue(termsText);
     }
 
     public LiveData<String> getText() {
